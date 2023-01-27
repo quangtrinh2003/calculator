@@ -20,7 +20,7 @@ function operate(topScreen, bottomScreen, operation)
     }
     if(operation === '/')
     {
-        return Number(topScreen) / Number(bottomScreen);
+        return (Number(topScreen) / Number(bottomScreen)).toFixed(2);
     }
 }
 
